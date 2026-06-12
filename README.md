@@ -1,4 +1,3 @@
-````md
 # Full Stack Web Development
 
 A collection of my FreeCodeCamp exercises, labs, solutions, certification projects, and progress throughout my Full Stack Web Development journey.
@@ -112,5 +111,3 @@ If you are learning web development through FreeCodeCamp or following a similar 
 
 Happy Coding! 🚀
 
-```
-```
