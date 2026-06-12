@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Anime Hero Recruitment Form</h1>
+      <p id="description">
+        Join our anime guild and begin your legendary journey!
+      </p>
+      <hr />
+    </header>
+    <main>
+      <form id="survey-form">
+
+        <fieldset>
+          <legend>
+            Character details:
+          </legend>
+        <label for="name" id="name-label">Hero Name:</label>
+        <input
+          required
+          type="text"
+          id="name"
+          name="name"
+          placeholder="[ Enter your anime name ]"
+        /><br />
+        <label for="email" id="email-label">Guild Email:</label>
+        <input
+          required
+          type="email"
+          id="email"
+          name="email"
+          placeholder="[ Enter your guild email ]"
+        /><br />
+        <label for="number" id="number-label">Hero Age (Optional):</label>
+        <input
+          required
+          type="number"
+          id="number"
+          name="number"
+          placeholder="[age]"
+          max="100"
+          min="10"
+        />
+        </fieldset>
+        <br />
+
+        <hr />
+
+        
+        <label for="dropdown">Which anime world would you like to join:</label>
+        <select id="dropdown">
+          <option value="" disabled selected>[ Select Anime World ▼ ]</option>
+          <option value="hlv">- Hidden Leaf Village</option>
+          <option value="ss">- Soul Society</option>
+          <option value="ft">- Fairy Tail Guild</option>
+          <option value="dsc">- Demon Slayer Corps</option>
+          <option value="shp">- Straw Hat Pirates</option></select
+        ><br />
+
+        <hr />
+        <fieldset>
+          <legend>Would you recommend this anime guild to a friend?</legend>
+          <input type="radio" id="r1" name="radio" value="r1"/>
+          <label for="r1">Definitely</label><br />
+          <input type="radio" id="r2" name="radio" value="r2" />
+          <label for="r2">Maybe</label><br />
+          <input type="radio" id="r3" name="radio" value="r3"/>
+          <label for="r3">Not Sure</label><br />
+        </fieldset>
+
+        <hr />
+
+        <label for="dropdown2">What is your favorite anime genre?</label>
+        <select id="dropdown2">
+          <option value="" disabled selected>[ Select Genre ▼ ]</option>
+          <option value="sh">- Shonen</option>
+          <option value="se">- Seinen</option>
+          <option value="ro">- Romance</option>
+          <option value="fa">- Fantasy</option>
+          <option value="isk">- Isekai</option></select
+        ><br />
+        <hr />
+
+        <fieldset>
+          <legend>What skills would you like to improve?</legend>
+          <input type="checkbox" id="c1" name="c1" value="ch1" />
+          <label for="c1">Swordsmanship</label>
+          <input type="checkbox" id="c2" name="c2"
+          value="ch2" />
+          <label for="c2">Fire Magic</label>
+          <input type="checkbox" id="c3" name="c3" value="ch3"/>
+          <label for="c3">Lightning Powers</label>
+          <input type="checkbox" id="c4" name="c4" value="ch4"/>
+          <label for="c4">Healing Arts</label>
+          <input type="checkbox" id="c5" name="c5" value="ch5" />
+          <label for="c5">Ninja Techniques</label>
+          <input type="checkbox" id="c6" name="c6" value="ch6"/>
+          <label for="c6">Leadership</label>
+          <input type="checkbox" id="c7" name="c7" value="ch7"/>
+          <label for="c7">Team Battles</label>
+          <input type="checkbox" id="c8" name="c8" value="ch8" />
+          <label for="c8">Adventure Quests</label>
+          <input type="checkbox" id="c9" name="c9" value="ch9"/>
+          <label for="c9">Special Transformations</label>
+        </fieldset>
+        <hr />
+
+        <label for="textar">Character Backstory:</label>
+        <textarea
+          id="textar"
+          name="textar"
+          rows="10"
+          cols="80"
+          placeholder="[ Tell us about your anime character,
+  dream, powers, and adventures... ]
+"
+        ></textarea>
+
+        <hr />
+
+        <button id="submit">Begin Adventure</button>
+      </form>
+    </main>
+  </body>
+</html>
