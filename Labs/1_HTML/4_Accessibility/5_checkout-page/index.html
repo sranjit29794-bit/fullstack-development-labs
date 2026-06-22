@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+
+<main>
+
+  <h1>Checkout</h1>
+
+
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="A scrambled rubix cube, all layers not in same plane" >
+        <p>Item:Rubix cube<br/>
+           Price:$14.99<br/>
+           Quantity:1</br>
+           Total:$14.99
+        </p>
+    
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-name"><span aria-hidden="true">*</span>Cardholder Name:</label>
+            <input required type="text" id="card-name" name="card-name" placeholder="Narendra Modi"><br/>
+            <label for="card-number"><span aria-hidden="true">*</span>Cardholder Number:</label>
+            <input required type="text" id="card-number" name="card-number" placeholder="1536-1371-1383-3383" aria-describedby="card-number-help">
+            <p id="card-number-help">Enter 16 digits...</p>
+            <label for="card-expiry"><span aria-hidden="true">*</span>Expiry Date:</label>
+            <input required type="text" id="card-expiry" name="card-expiry" placeholder="MM/YY"><br/>
+            <button type="button">Place order</button>
+        </form>
+    </section>
+</main>
+</body>
+
+</html>
